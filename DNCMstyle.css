@@ -1,0 +1,9 @@
+body { 
+   font-family:arial,helvetica,sans-serif; font-size:12px; 
+}
+#wrapper { 
+   width:900px; 
+   margin:0px auto; 
+   border:1px solid #bbb; 
+   padding:10px; 
+}
