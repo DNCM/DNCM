@@ -8,3 +8,7 @@ a.sidebar:link { color: black; text-decoration: none;}
 a.sidebar:active { color: black; text-decoration: none }
 a.sidebar:visited { color: black; text-decoration: none }
 a.sidebar:hover { color: white; background-color:#077c89; padding:3px; }
+.indent1 {
+   margin-right:1em; 
+   margin-left:1em;
+}
