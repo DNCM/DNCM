@@ -2,7 +2,7 @@ from xml.etree.ElementTree import ElementTree
 import xml.etree.ElementTree as ET
 import os
 
-files = ['index', 'About', 'Products', 'Photos', 'Contact', 'ForSale']
+links = [['index', 'Home'], ['Products', 'Products'], ['Photos', 'Photos'], ['About', 'About Us'], ['Contact', 'Contact Us'], ['ForSale', 'For Sale']]
 templateFile = 'page_template.html'
 destDir = 'www'+os.sep
 
@@ -41,18 +41,15 @@ def findSidebar(parentElem):
 			return candidateElem
 	return None
 
-def insertSidebarLinks(templateRoot, thisFile, files):
+def insertSidebarLinks(templateRoot, thisFile, links):
 	sidebarElem = findSidebar(templateRoot)
 	
-	reversedFiles = list(files)
-	reversedFiles.reverse()
+	reversedLinks = list(links)
+	reversedLinks.reverse()
 	
-	for file in reversedFiles:
-		if file == 'index':
-			linkText = "Home"
-		else:
-			linkText = file
-				
+	for linkTuple in reversedLinks:
+		linkText = linkTuple[1]
+		file = linkTuple[0]
 		linkDest = file+'.html'
 	
 		if file == thisFile:
@@ -71,7 +68,9 @@ def insertSidebarLinks(templateRoot, thisFile, files):
 		
 		sidebarElem.insert(0, pElem)
 
-for srcFileRoot in files:
+for linkTuple in links:
+	srcFileRoot = linkTuple[0]
+	
 	srcFile = srcFileRoot+'.f'
 	destFile = destDir+srcFileRoot+'.html' 
 	print srcFile+' + '+templateFile+' => '+destFile
@@ -86,7 +85,7 @@ for srcFileRoot in files:
 	templateTree = ElementTree()
 	templateRoot = templateTree.parse("page_template.html", parser = CommentedTreeBuilder())
 	
-	insertSidebarLinks(templateRoot, srcFileRoot, files)
+	insertSidebarLinks(templateRoot, srcFileRoot, links)
 	
 	srcTree = ElementTree()
 	srcRoot = srcTree.parse(srcFile, parser = CommentedTreeBuilder())
