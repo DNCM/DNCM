@@ -1,13 +1,20 @@
-p.sidebar {
+p.sidebarLink {
    text-indent:20px;
    font-size:14pt;
    margin:0;
    margin-bottom:0px;
 }
-a.sidebar:link { color: black; text-decoration: none;}
-a.sidebar:active { color: black; text-decoration: none }
-a.sidebar:visited { color: black; text-decoration: none }
-a.sidebar:hover { color: white; background-color:#077c89; padding:3px; }
+span.sidebarLink {
+   color: black;
+   font-weight:bold;
+   background-color:#e0e0e0;
+   padding-left:5px;
+   padding-right:5px;
+}
+a.sidebar:link { color: black; text-decoration: none; padding-left:5px; padding-right:5px;}
+a.sidebar:active { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
+a.sidebar:visited { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
+a.sidebar:hover { color: white; background-color:#077c89; padding-left:5px; padding-right:5px;}
 .indent1 {
    margin-right:1em; 
    margin-left:1em;

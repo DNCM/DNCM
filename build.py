@@ -29,6 +29,48 @@ def findContentDiv(parentElem):
 			return candidateElem
 	return None
 
+def findSidebar(parentElem):
+	for elem in list(parentElem):
+		if elem.tag == 'div':
+			idAttrib = elem.get('id')
+			if idAttrib != None:
+				if idAttrib == 'sidebarLinks':
+					return elem
+		candidateElem = findSidebar(elem)
+		if candidateElem != None:
+			return candidateElem
+	return None
+
+def insertSidebarLinks(templateRoot, thisFile, files):
+	sidebarElem = findSidebar(templateRoot)
+	
+	reversedFiles = list(files)
+	reversedFiles.reverse()
+	
+	for file in reversedFiles:
+		if file == 'index':
+			linkText = "Home"
+		else:
+			linkText = file
+				
+		linkDest = file+'.html'
+	
+		if file == thisFile:
+			linkTemplateTree = ElementTree()
+			linkTemplateRoot = linkTemplateTree.parse('sidebarNoLink_template.f', parser = CommentedTreeBuilder())
+			pElem = linkTemplateRoot.find('p')
+			spanElem = pElem.find('span')
+			spanElem.text=linkText
+		else:
+			linkTemplateTree = ElementTree()
+			linkTemplateRoot = linkTemplateTree.parse('sidebarLink_template.f', parser = CommentedTreeBuilder())
+			pElem = linkTemplateRoot.find('p')
+			aElem = pElem.find('a')
+			aElem.text=linkText
+			aElem.set('href', linkDest)
+		
+		sidebarElem.insert(0, pElem)
+
 for srcFileRoot in files:
 	srcFile = srcFileRoot+'.f'
 	destFile = destDir+srcFileRoot+'.html' 
@@ -43,6 +85,8 @@ for srcFileRoot in files:
 	
 	templateTree = ElementTree()
 	templateRoot = templateTree.parse("page_template.html", parser = CommentedTreeBuilder())
+	
+	insertSidebarLinks(templateRoot, srcFileRoot, files)
 	
 	srcTree = ElementTree()
 	srcRoot = srcTree.parse(srcFile, parser = CommentedTreeBuilder())
