@@ -55,7 +55,6 @@ for srcFileRoot in files:
 	#print "contentDiv.tail='"+contentDiv.tail+"'"
 	
 	for elem in srcRoot.getchildren():
-		print elem, elem.tag, elem.text
 		contentDiv.append(elem)
 	
 	dest = open(destFile, 'w')
