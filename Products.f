@@ -1,1 +1,3 @@
-Products
+<fragment>
+<p>Products</p>
+</fragment>
