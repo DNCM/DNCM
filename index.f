@@ -1,4 +1,4 @@
-<img src="20120107DN19250-X2_750w.jpg" width=750 height=221 />
+<img src="20120107DN19250-X2_790x236.jpg" width=790 height=236 />
 <p>Lorem ipsum dolor sit amet, <em>consectetuer adipiscing elit</em>. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.</p>
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="#">Morbi et risus</a>.</p>
 <blockquote>
