@@ -1,3 +1,3 @@
 <fragment>
-<p>About</p>
+<h1>About</h1>
 </fragment>
