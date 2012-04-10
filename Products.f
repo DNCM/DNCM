@@ -30,7 +30,7 @@
       <img class="tn" src="products/twizzler_tn.jpg" width="100" height="100" />
    </div>
    <div class="span-14 product">
-      <p>The <span class="productName">Twizzler</span> has the same construction methods as the <i>Blackie</i> and <i>Black Max</i>
+      <p>The <span class="productName">Twizzler</span> uses the same construction methods as the <i>Blackie</i> and <i>Black Max</i>
       but it is softer for lighter sailors. It can have a dyed finish in red, blue, green, yellow, or grey</p>
    </div>
    <div class="span-2 right product">$1400.00</div>
