@@ -19,3 +19,48 @@ a.sidebar:hover { color: white; background-color:#077c89; padding-left:5px; padd
    margin-right:1em; 
    margin-left:1em;
 }
+.product {
+   background-color: white;
+   font-size:12pt;
+}
+hr.product {
+   background-color: white;
+   color:white;
+   height:0px;
+}
+.titleborder {
+   border:1px solid #999;
+   padding:10px;
+   padding-top:20px;
+   margin:20px 20px;
+   font-size:1em;
+   min-height:120px;
+}
+span.titleborder{
+   position:relative;
+   padding:2px 5px;;
+   border:1px solid black;
+   top:-30px;
+   left:-530px;
+   background-color:#fff;
+   font-size:0.9em;
+   color:#300;
+   margin:0;
+   min-height:0;
+}
+.titleborderX p {
+   margin:10px 0 0;
+   font-size:12pt;
+}
+.titleborder img.tn {
+   float:left;
+   margin-top:0px;
+   margin-left:0px;
+   border:10px solid black;
+   margin-right:10px;
+   vertical-align:text-top;
+}
+.productName {
+   font-weight:bold;
+   font-syle:italic;
+}

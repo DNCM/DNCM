@@ -1,33 +1,54 @@
 <fragment>
 <div class="product">
-   <div class="span-20 left product"><h1 style="margin:10px;">Products</h1></div>
-   <hr class="product" />
-   <div class="span-3 push-1 product clear">
-      <img src="products/stdMast_tn.jpg" width="100" height="100" class="product"/>
-   </div>
-   <div class="span-13 product">
-      <p class="product" >Blackie Carbon Carbon cloth on outside of mast gloss epoxy finish competition layup.</p>
-   </div>
-   <div class="span-2 right product">$1400.00</div>
-   <hr class="product" />
-   <div class="span-3 push-1 product clear">
-      <img src="products/stdMast_tn.jpg" width="100" height="100" />
-   </div>
-   <div class="span-13 product">
-      <p>Blackie Carbon Carbon cloth on outside of mast gloss epoxy finish competition layup.</p>
-   </div>
-   <div class="span-2 right product">$1400.00</div>
+   <div class="span-20 left product"><span style="margin:10px; font-size:24pt; font-weight:bold;">Products:</span></div>
    <hr />
    <div class="titleborder" >
-   <span class="titleborder">Runner Sharpener</span>
+   <span class="titleborder">Blackie</span>
       <div class="span-3 push-1 product clear" style="margin:0;">
-         <img class="tn" src="products/stdMast_tn.jpg" width="100" height="100" />
+         <img class="tn" src="products/blackie_tn.jpg" width="100" height="100" />
       </div>
       <div class="span-11 product push-1">
-         <p>A benchtop runner sharpener for use with all types of runners and all sharpening angles.</p>
+         <p>The <span class="productName">Blackie Carbon</span> mast is made of a combination of carbon-fiber 
+         and fiberglass laminated with Gougeon Pro-Set epoxy and post-cured in an oven.
+         The carbon cloth is on outside of mast with a gloss epoxy finish.</p>
       </div>
       <div class="span-2 right product">$1400.00</div>
    </div>
    <hr class="product" />
+   <div class="titleborder" >
+   <span class="titleborder">Black Max</span>
+      <div class="span-3 push-1 product clear" style="margin:0;">
+         <img class="tn" src="products/blackie_tn.jpg" width="100" height="100" />
+      </div>
+      <div class="span-11 product push-1">
+         <p>The <span class="productName">Black Max</span> has the same layup and construction as the <i>Blackie</i> 
+         but with the carbon-fiber on the inside of the mast. It has a black graphite finish.</p>
+      </div>
+      <div class="span-2 right product">$1400.00</div>
+   </div>
+   <hr class="product" />
+
+   <div class="titleborder" >
+   <span class="titleborder">Twizzler</span>
+      <div class="span-3 push-1 product clear" style="margin:0;">
+         <img class="tn" src="products/twizzler_tn.jpg" width="100" height="100" />
+      </div>
+      <div class="span-11 product push-1">
+         <p>The <span class="productName">Twizzler</span> has the same layup construction as the <i>Blackie</i> and <i>Black Max</i>
+         but built for lighter sailors. It can have a dyed finish in red, blue, green, yellow, or grey</p>
+      </div>
+      <div class="span-2 right product">$1400.00</div>
+   </div>
+   <hr class="product" />
+   <div class="titleborder" >
+   <span class="titleborder">Runner Sharpener</span>
+      <div class="span-3 push-1 product clear" style="margin:0;">
+         <img class="tn" src="products/runnerSharpener_tn.jpg" width="100" height="100" />
+      </div>
+      <div class="span-11 product push-1">
+         <p>A benchtop runner sharpener for use with all types of runners and all sharpening angles.</p>
+      </div>
+      <div class="span-2 right product">$750.00</div>
+   </div>
 </div>
 </fragment>
