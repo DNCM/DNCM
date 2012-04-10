@@ -19,14 +19,35 @@ a.sidebar:hover { color: white; background-color:#077c89; padding-left:5px; padd
    margin-right:1em; 
    margin-left:1em;
 }
-.product {
+div.product {
    background-color: white;
    font-size:12pt;
+   margin-bottom: 0px;
+}
+div.productHeading {
+   margin-left:10px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   font-size:24pt; 
+   font-weight:bold;
+}
+div.productSubHeading {
+   margin-left:20px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   font-size:18pt; 
+   font-weight:bold;
 }
 hr.product {
-   background-color: white;
+   background-color: #a0a0a0;
    color:white;
-   height:0px;
+   margin:0 0 5px 0;
+}
+hr.sectionSeparator {
+   background-color:black;
+   color:black;
+   height:3px;
+   margin:20px 0 0 0;
 }
 .titleborder {
    border:1px solid #999;
@@ -63,4 +84,7 @@ span.titleborder{
 .productName {
    font-weight:bold;
    font-syle:italic;
+}
+.spacer {
+   color:white;
 }
