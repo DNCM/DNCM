@@ -1,12 +1,33 @@
 div.mainLogo {
-   padding:2; 
+   padding:2px; 
    padding-left:30px; 
    background-color:#077c89; 
    color:white; 
+   font-family:"Trebuchet MS", Helvetica, sans-serif;
+   font-style:oblique;
    font-weight:bold; 
-   font-size:36pt; 
+   font-size:46pt; 
+   line-height:1;
+   margin-top: 15px;
+   padding-top:0;
    margin-bottom:0px;
+   position:relative;
+   height:52px;
 }
+span.mainLogoInset {
+   position:absolute;
+   left:138px;;
+   top:-11px;;
+   font-family:"Lucida Console", Monaco, monospace;
+   font-style:normal;
+   font-wieght:bold;
+   font-size:14pt;
+   color:black;
+}
+span.mainLogoInset a:link { color: black; text-decoration: none; }
+span.mainLogoInset a:active { color: black; text-decoration: none; }
+span.mainLogoInset a:visited { color: black; text-decoration: none; }
+span.mainLogoInset a:hover { color: black; text-decoration: none; }
 div.subLogo {
    margin-bottom:10px; 
    border-width:2px; 
