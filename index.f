@@ -1,18 +1,12 @@
 <fragment>
 <img src="20120107DN19250-X2_790x236.jpg" width="790" height="236" />
-<p>Lorem ipsum dolor sit amet, <em>consectetuer adipiscing elit</em>. Nunc congue ipsum vestibulum libero. Aenean vitae justo. Nam eget tellus. Etiam convallis, est eu lobortis mattis, lectus tellus tempus felis, a ultricies erat ipsum at metus.</p>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <a href="#">Morbi et risus</a>.</p>
-<blockquote>
-  <p>Integer cursus ornare mauris. Praesent nisl arcu, imperdiet eu, ornare id, scelerisque ut, nunc. Praesent sagittis erat sed velit tempus imperdiet. Ut tristique, ante in interdum hendrerit, erat enim faucibus felis, quis rutrum mauris lorem quis sem. Vestibulum ligula nisi, mattis nec, posuere et, blandit eu, ligula. Nam suscipit placerat odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Pellentesque tortor libero, venenatis vitae, rhoncus eu, placerat ut, mi. Nulla nulla.</p>
-</blockquote>
-<p>Maecenas vel metus quis magna pharetra fermentum. <em>Integer sit amet tortor</em>.</p>
-<hr />
-<div class="span-7 colborder">
-  <h6>DN Wester Region Championship:</h6>
-  <p style="margin-top:3px;"><img src="20120107DN19323-X3_270x312.jpg" class="top pull-1 left" style="margin-top:0; margin:0;" width="270" height="312" />Lorem ipsum dolor sit amet.</p>
-</div>
-<div class="span-7 last">
-  <h6>This is another nested column</h6>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-</div>
+<p class="normal">For 14 years Bob Rast and <span class="inlineCompanyName">RWR Composites</span> have been developing composite DN masts.<br />
+The end result is their line of extremely durable, competitive DN racing masts available at a affordable price.<br />
+All <span class="inlineCompanyName">RWR Composites</span> masts are custom built for modern sail-cut and high boat-speed
+using the best quality aerospace epoxy and a mix of carbon-fiber, S-glass and E-glass. Blow-molding technology is used to assure the highest quaility 
+laminate.
+</p>
+<p class="normal">
+For more information on <span class="inlineCompanyName">RWR Composites</span> masts and other DN hardware, please visit our <a href="Products.html">Products</a> page.
+</p>
 </fragment>

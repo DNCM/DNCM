@@ -9,8 +9,8 @@
       <img class="tn" src="products/blackie_tn.jpg" width="100" height="100" />
    </div>
    <div class="span-14 product">
-      <p>The <span class="productName">Blackie Carbon</span> mast is made of a combination of carbon-fiber 
-      and fiberglass laminated with aircraft-grade epoxy and post-cured in an oven.
+      <p>The <span class="productName">Blackie Carbon</span> mast is made of a combination of carbon-fiber,
+      S-glass, and E-glass laminated with aeroospace epoxy and post-cured in an oven.
       The carbon cloth is on outside of mast with a gloss epoxy finish.</p>
    </div>
    <div class="span-2 right product">$1400</div>
