@@ -1,3 +1,38 @@
+div.mainLogo {
+   padding:2; 
+   padding-left:30px; 
+   background-color:#077c89; 
+   color:white; 
+   font-weight:bold; 
+   font-size:36pt; 
+   margin-bottom:0px;
+}
+div.subLogo {
+   margin-bottom:10px; 
+   border-width:2px; 
+   border-style:solid; 
+   border-color:black;
+}
+p.subLogo {
+   font-size:20pt; 
+   font-weight:bold; 
+   background-color: white; 
+   color:#ff3010; 
+   font-style:italic; 
+   padding-left:60px; 
+   margin-bottom:0px; 
+   margin-top:0; 
+   padding-bottom:0px; 
+   padding-top:0px;
+}
+#sidebarLinks {
+   border-width:2px; 
+   border-style:solid; 
+   border-color:black; 
+   padding-top:4px; 
+   padding-bottom:10px; 
+   margin-bottom:10px;
+}
 p.sidebarLink {
    text-indent:15px;
    font-size:14pt;
