@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import os
 
 #links = [['index', 'Home'], ['Products', 'Products'], ['Photos', 'Photos'], ['About', 'About Us'], ['Contact', 'Contact Us'], ['ForSale', 'For Sale']]
-links = [['index', 'Home'], ['Products', 'Products'], ['Contact', 'Contact Us']]
+links = [['index', 'Home'], ['Products', 'Products'], ['Videos', 'Videos'], ['Contact', 'Contact Us']]
 templateFile = 'page_template.html'
 destDir = 'www'+os.sep
 

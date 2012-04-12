@@ -64,18 +64,26 @@ p.subLogo {
 .normal a:active { color: black; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-decoration: none; }
 .normal a:visited { color: black; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-decoration: none; }
 .normal a:hover { color: white; font-family:Arial, Helvetica, sans-serif; font-weight:bold; background-color:#077c89; text-decoration: none; }
+
+.std a:link { color: black; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-decoration: none; }
+.std a:active { color: black; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-decoration: none; }
+.std a:visited { color: black; font-family:Arial, Helvetica, sans-serif; font-weight:bold; text-decoration: none; }
+.std a:hover { color: white; font-family:Arial, Helvetica, sans-serif; font-weight:bold; background-color:#077c89; text-decoration: none; }
 div.sidebarLinks {
    border-width:2px; 
    border-style:solid; 
    border-color:black; 
    padding-top:4px; 
    padding-bottom:10px;
+   padding-left:15px;
+   line-height:1;
 }
 p.sidebarLink {
-   text-indent:15px;
+   margin-left:15px;
    font-size:14pt;
    margin:0;
-   margin-bottom:0px;
+   margin-top:5px;
+   margin-bottom:9px;
 }
 span.sidebarLink {
    color: black;
