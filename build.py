@@ -101,6 +101,13 @@ for linkTuple in links:
 	for elem in srcRoot.getchildren():
 		contentDiv.append(elem)
 	
+	if srcFileRoot == 'index':
+		metaTree = ElementTree()
+		metaRoot = metaTree.parse('meta.f', parser = CommentedTreeBuilder())
+		headElem = templateRoot.find('head')
+		for elem in metaRoot.getchildren():
+			headElem.append(elem)
+	
 	dest = open(destFile, 'w')
 	dest.write('<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">\n')
 	templateTree.write(dest)
