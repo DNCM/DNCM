@@ -192,3 +192,23 @@ span.titleborder{
 .spacer {
    color:white;
 }
+img.photoWithCredit {
+   margin:0;
+   padding:0;
+   border:0;
+}
+span.photoCredit {
+   margin: 0;
+   padding:0;
+   border:0;
+   position:absolute;
+   bottom:5px;
+   right:10px;font-family:"Times New Roman", Times, serif;
+   font-size:8pt;
+   font-style:italic;
+   color:black;
+}
+.photoCredit a:link { color: black; text-decoration: none; padding-left:5px; padding-right:5px;}
+.photoCredit a:active { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
+.photoCredit a:visited { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
+.photoCredit a:hover { color: white; background-color:#077c89; padding-left:5px; padding-right:5px;}

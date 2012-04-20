@@ -1,6 +1,9 @@
 <fragment>
 <div class="home">
-<img src="20120107DN19250-X2_790x236.jpg" width="790" height="236" />
+<div style="position: relative">
+   <img class="photoWithCredit" src="20120107DN19250-X2_790x236.jpg" width="790" height="236" />
+   <span class="photoCredit"><a href="http://gretchendorian.com/">Photo: Gretchen Dorian</a></span>
+</div>
 <p class="normal">For 14 years Bob Rast and <span class="inlineCompanyName">RKR Composites</span> have been developing composite DN masts.<br />
 The end result is their line of extremely durable, competitive DN racing masts available at affordable prices.<br />
 All <span class="inlineCompanyName">RKR Composites</span> masts are custom built for the modern DN sail-cut
