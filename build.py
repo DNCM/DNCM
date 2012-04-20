@@ -5,7 +5,7 @@ import os
 #links = [['index', 'Home'], ['Products', 'Products'], ['Photos', 'Photos'], ['About', 'About Us'], ['Contact', 'Contact Us'], ['ForSale', 'For Sale']]
 links = [['index', 'Home'], ['Products', 'Products'], ['Videos', 'Videos'], ['Contact', 'Contact Us']]
 templateFile = 'page_template.html'
-destDir = 'www'+os.sep
+destDir = 'dncompositemasts.com_new'+os.sep
 
 
 class CommentedTreeBuilder ( ET.XMLTreeBuilder ):
