@@ -14,8 +14,5 @@ laminate.
 For more information on <span class="inlineCompanyName">RKR Composites</span> masts and other DN hardware, 
 please visit our <a href="Products.html">Products</a> page or <a href="Contact.html">contact us</a> directly.
 </p>
-<hr />
-<p class="normal">
-</p>
 </div>
 </fragment>
