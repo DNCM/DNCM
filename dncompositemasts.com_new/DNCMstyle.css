@@ -228,10 +228,12 @@ span.photoCreditLight {
 .photoCreditLight a:visited { color: white; text-decoration: none; padding-left:5px; padding-right:5px; }
 .photoCreditLight a:hover { color: white; background-color:#077c89; padding-left:5px; padding-right:5px;}
 div.photoPage {
-   width:950px; 
-   position: relative
+   position: relative;
+   margin-left:auto; 
+   margin-right:auto;
 }
 div.photoPage img {
+   margin:0;
    border:25px solid black;
 }
 div.photoPage span.credit {
@@ -239,7 +241,7 @@ div.photoPage span.credit {
    padding:0;
    border:0;
    position:absolute;
-   bottom:5px;
+   bottom:2px;
    right:14px;
    font-family: Arial, Helvetica, sans-serif;
    font-size:12pt;
@@ -256,6 +258,8 @@ div.photoPageCaption {
    font-weight:bold;
    color:black;
    margin-bottom:10px;
+   margin-left:auto; 
+   margin-right:auto;
 }
 div.photoPageCaption a:link { color: black; text-decoration: none; padding-left:5px; padding-right:5px;}
 div.photoPageCaption a:active { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
