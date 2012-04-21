@@ -10,7 +10,7 @@ links = [['index', 'Home'], ['Products', 'Products'], ['Videos', 'Videos'], ['Co
 pageTemplateFile = 'page_template.html'
 photoTemplateFile = 'photo_template.html'
 topDestDir = 'dncompositemasts.com_new'+os.sep
-photoDestDir = topDestDir+os.sep+'images'+os.sep
+photoDestDir = topDestDir+'images'+os.sep
 
 class CommentedTreeBuilder ( ET.XMLTreeBuilder ):
     def __init__ ( self, html = 0, target = None ):
