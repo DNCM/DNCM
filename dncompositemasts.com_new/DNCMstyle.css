@@ -197,18 +197,67 @@ img.photoWithCredit {
    padding:0;
    border:0;
 }
-span.photoCredit {
+span.photoCreditDark {
    margin: 0;
    padding:0;
    border:0;
    position:absolute;
    bottom:5px;
    right:10px;font-family:"Times New Roman", Times, serif;
-   font-size:8pt;
+   font-size:10pt;
    font-style:italic;
    color:black;
 }
-.photoCredit a:link { color: black; text-decoration: none; padding-left:5px; padding-right:5px;}
-.photoCredit a:active { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
-.photoCredit a:visited { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
-.photoCredit a:hover { color: white; background-color:#077c89; padding-left:5px; padding-right:5px;}
+.photoCreditDark a:link { color: black; text-decoration: none; padding-left:5px; padding-right:5px;}
+.photoCreditDark a:active { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
+.photoCreditDark a:visited { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
+.photoCreditDark a:hover { color: white; background-color:#077c89; padding-left:5px; padding-right:5px;}
+span.photoCreditLight {
+   margin: 0;
+   padding:0;
+   border:0;
+   position:absolute;
+   bottom:5px;
+   right:10px;font-family:"Times New Roman", Times, serif;
+   font-size:10pt;
+   font-style:italic;
+   color:white;
+}
+.photoCreditLight a:link { color: white; text-decoration: none; padding-left:5px; padding-right:5px;}
+.photoCreditLight a:active { color: white; text-decoration: none; padding-left:5px; padding-right:5px; }
+.photoCreditLight a:visited { color: white; text-decoration: none; padding-left:5px; padding-right:5px; }
+.photoCreditLight a:hover { color: white; background-color:#077c89; padding-left:5px; padding-right:5px;}
+div.photoPage {
+   width:950px; 
+   position: relative
+}
+div.photoPage img {
+   border:25px solid black;
+}
+div.photoPage span.credit {
+   margin: 0;
+   padding:0;
+   border:0;
+   position:absolute;
+   bottom:5px;
+   right:14px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:12pt;
+   font-weight:bold;
+   color:white;
+}
+div.photoPage span.credit a:link { color: white; text-decoration: none; padding-left:5px; padding-right:5px;}
+div.photoPage span.credit a:active { color: white; text-decoration: none; padding-left:5px; padding-right:5px; }
+div.photoPage span.credit a:visited { color: white; text-decoration: none; padding-left:5px; padding-right:5px; }
+div.photoPage span.credit a:hover { color: white; background-color:#077c89; padding-left:5px; padding-right:5px;}
+div.photoPageCaption {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:12pt;
+   font-weight:bold;
+   color:black;
+   margin-bottom:10px;
+}
+div.photoPageCaption a:link { color: black; text-decoration: none; padding-left:5px; padding-right:5px;}
+div.photoPageCaption a:active { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
+div.photoPageCaption a:visited { color: black; text-decoration: none; padding-left:5px; padding-right:5px; }
+div.photoPageCaption a:hover { color: white; background-color:#077c89; padding-left:5px; padding-right:5px;}
