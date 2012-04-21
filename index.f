@@ -17,7 +17,7 @@ please visit our <a href="Products.html">Products</a> page or <a href="Contact.h
 <hr style="margin-top:10px;" />
 <div class="span-9 left colborder">
    <div style="width:350px; position: relative">
-      <a href="images/20120107DN19323-X3_650x650.html" ><img  class="photoWithCreditLight" src="images/20120107DN19323-X3_350x350.jpg" width="350" height="350"/></a>
+      <a href="images/20120107DN19323-X3_650x650.html" target="_blank" ><img  class="photoWithCreditLight" src="images/20120107DN19323-X3_350x350.jpg" width="350" height="350"/></a>
       <span class="photoCreditLight"><a href="http://gretchendorian.com/" target="_blank" >Photo: Gretchen Dorian</a></span>
    </div>
    <p style="margin-left:20px; margin-right:60px;">Bob Rast sails his <i>Blackie</i> mast at the 2012 DN Wertern Region Championship Regatta on Green Lake in Minnesota.</p>
@@ -25,7 +25,7 @@ please visit our <a href="Products.html">Products</a> page or <a href="Contact.h
 <!-- div class="span-1 colborder">c</div -->
 <div class="span-10 right last">
    <div style="width:350px; position: relative">
-      <a href="images/DSC_5487 (1)a_900x600.html" ><img  class="photoWithCreditLight" src="images/DSC_5487a_350x350.jpg" width="350" height="350"/></a>
+      <a href="images/DSC_5487 (1)a_900x600.html" target="_blank" ><img  class="photoWithCreditLight" src="images/DSC_5487a_350x350.jpg" width="350" height="350"/></a>
       <span class="photoCreditLight"><a href="http://cefirmbach.com/index.html" target="_blank" >Photo: Catherine E Firmbach</a></span>
    </div>
    <p style="margin-left:20px; margin-right:60px;">Jori Lenon and her bright red <i>Twizzler</i> mast round the windward mark during the 2012 DN North American Championship Regatta on Green Bay.</p>
