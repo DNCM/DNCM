@@ -25,7 +25,7 @@ please visit our <a href="Products.html">Products</a> page or <a href="Contact.h
 <!-- div class="span-1 colborder">c</div -->
 <div class="span-10 right last">
    <div style="width:350px; position: relative">
-      <a href="images/DSC_5487 (1)a_900x600.html" target="_blank" ><img  class="photoWithCreditLight" src="images/DSC_5487a_350x350.jpg" width="350" height="350"/></a>
+      <a href="images/DSC_5487a_900x600.html" target="_blank" ><img  class="photoWithCreditLight" src="images/DSC_5487a_350x350.jpg" width="350" height="350"/></a>
       <span class="photoCreditLight"><a href="http://cefirmbach.com/index.html" target="_blank" >Photo: Catherine E Firmbach</a></span>
    </div>
    <p style="margin-left:20px; margin-right:60px;">Jori Lenon and her bright red <i>Twizzler</i> mast round the windward mark during the 2012 DN North American Championship Regatta on Green Bay.</p>
