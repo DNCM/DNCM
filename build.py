@@ -5,7 +5,7 @@ import os
 doctype = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">\n'
 
 #links = [['index', 'Home'], ['Products', 'Products'], ['Photos', 'Photos'], ['About', 'About Us'], ['Contact', 'Contact Us'], ['ForSale', 'For Sale']]
-links = [['index', 'Home'], ['Products', 'Products'], ['Videos', 'Videos'], ['Contact', 'Contact Us']]
+links = [['index', 'Home'], ['Products', 'Products'], ['Photos', 'Photos'], ['Videos', 'Videos'], ['Contact', 'Contact Us']]
 pageTemplateFile = 'page_template.html'
 photoTemplateFile = 'photo_template.html'
 topDestDir = 'dncompositemasts.com_new'+os.sep
