@@ -60,12 +60,14 @@
    <hr class="product" />
    <div class="span-1 clear spacer">.</div>
    <div class="span-3 push-1 product" style="margin:0;">
-      <img class="tn" src="products/placeholder.png" width="100" height="100" />
+      <img class="tn" src="products/HikingStep3_tn.jpg" width="100" height="100" />
    </div>
    <div class="span-14 product">
-      <p><span class="productName">Carbon-Fiber Hiking Rack.</span> 12" long.</p>
+      <p><span class="productName">Carbon fiber hiking step</span>
+      Standard 12" or 13&#189;" inch width for Goodwin design hulls or custom cut. 
+      Eaisly mounts with double sided tape or small screws</p>
    </div>
-   <div class="span-2 right product">$30</div>
+   <div class="span-2 right product">$35 each includes shipping</div>
 
 </div>
 </fragment>

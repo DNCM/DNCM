@@ -20,7 +20,7 @@ span.mainLogoInset {
    top:-11px;;
    font-family:"Lucida Console", Monaco, monospace;
    font-style:normal;
-   font-wieght:bold;
+   font-weight:bold;
    font-size:14pt;
    color:black;
 }
@@ -108,6 +108,9 @@ div.product {
    background-color: white;
    font-size:12pt;
    margin-bottom: 10px;
+}
+div.product p {
+	padding-right: 10px;
 }
 div.contact {
    background-color: white;
