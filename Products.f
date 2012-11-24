@@ -68,6 +68,18 @@
       Eaisly mounts with double sided tape or small screws</p>
    </div>
    <div class="span-2 right product">$35 each includes shipping</div>
+   <hr class="product" />
+   <div class="span-1 clear spacer">.</div>
+   <div class="span-3 push-1 product" style="margin:0;">
+      <img class="tn" src="products/ExternalHound_tn.jpg" width="100" height="100" />
+   </div>
+   <div class="span-14 product">
+      <p><span class="productName">External Mast Hound</span>
+      Water-Jet Cut 20 gauge Stainless Steel Mast Hound fits Kent Profile can be bent to fit Sherry Masts.<br />
+      Fasten with #8 3/4 SS screws. Good for emergency fix.
+      </p>
+   </div>
+   <div class="span-2 right product">$75 each includes shipping</div>
 
 </div>
 </fragment>
