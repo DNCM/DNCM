@@ -47,7 +47,7 @@
       Constructed with carbon-fiber re-enforcement for rigidity and stability with a 1hp reversible motor.
       The sharpener uses readily available 2x90" belts.</p>
    </div>
-   <div class="span-2 right product">$800</div>
+   <div class="span-2 right product">$1000</div>
    <hr class="product" />
    <div class="span-1 clear spacer">.</div>
    <div class="span-3 push-1 product" style="margin:0;">
